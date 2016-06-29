@@ -50,9 +50,16 @@ section div.usage h5 {
   padding: 4px 6px;
   margin: 0;
 }
-section div.usage pre {
+section div.usage pre,
+section div.usage p {
   margin: 0;
   padding: 4px 6px;
+  font-size: 14px;
+}
+section div.usage pre {
+  background: #474747;
+  margin: 2px 10px;
+  color: #FFF;
 }
 #typography .specimen {
   margin-bottom: 20px;
