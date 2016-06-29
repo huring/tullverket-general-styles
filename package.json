@@ -1,16 +1,13 @@
 {
-  "name": "helikopter-anniversary",
-  "version": "1.0.0",
-  "description": "Invitation Bot for Anniversary party",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "request": "^2.72.0"
+  "name": "tullverket-styles-general",
+  "description": "Tullverket styles for general elements",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.2.0",
+    "grunt-contrib-less": "latest",
+    "time-grunt": "^1.2.1"
   }
 }
