@@ -1,0 +1,101 @@
+body {
+  background: #E0F4F1;
+  color: #353635;
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px;
+}
+strong {
+  font-weight: 600;
+}
+h1,
+h2 {
+  font-weight: 300;
+  margin-top: 0;
+}
+h2 {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 15px;
+}
+.weight-800 {
+  font-weight: 800;
+}
+.weight-700 {
+  font-weight: 700;
+}
+.weight-600 {
+  font-weight: 600;
+}
+.weight-400 {
+  font-weight: 400;
+}
+.weight-300 {
+  font-weight: 300;
+}
+section {
+  margin-bottom: 50px;
+  background: #FFF;
+  padding: 20px;
+}
+section h4 {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+section div.usage {
+  background: #F6F6F6;
+  margin-top: 20px;
+}
+section div.usage h5 {
+  background: #EAEAEA;
+  padding: 4px 6px;
+  margin: 0;
+}
+section div.usage pre {
+  margin: 0;
+  padding: 4px 6px;
+}
+#typography .specimen {
+  margin-bottom: 20px;
+}
+#typography .specimen h6 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+#typography .specimen p {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+#typography .specimen p span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+.glyphicons {
+  font-size: 24px;
+  color: #808091;
+  padding-top: 0;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+.glyphicons em {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.glyphicons em span {
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.glyphicons:hover {
+  color: #387DBF;
+}

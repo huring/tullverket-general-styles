@@ -1,0 +1,121 @@
+@gray: #353635;
+@blue: #8BC5FF;
+@purple: #6F3596;
+@icon-color: #808091;
+@hover-color: #387DBF;
+@standard-font: 'Open Sans', sans-serif;
+
+
+body { 
+    background: #E0F4F1;
+    color:@gray;
+    font-family: @standard-font;
+    padding: 40px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h1,h2 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+h2 {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 15px;
+}
+
+.weight-800 { font-weight: 800; }
+.weight-700 { font-weight: 700; }
+.weight-600 { font-weight: 600; }
+.weight-400 { font-weight: 400; }
+.weight-300 { font-weight: 300; }
+
+section {
+	margin-bottom: 50px;
+	background: #FFF;
+	padding: 20px;
+
+	  h4 {
+	  	font-weight: 500;
+	  	font-size: 12px;
+	  	text-transform: uppercase;
+	  }
+
+	  div.usage {
+	  	background: #F6F6F6;
+	  	margin-top: 20px;
+
+	  	h5 {
+	  		background: #EAEAEA;
+	  		padding: 4px 6px;
+	  		margin: 0;
+	  	}
+
+	  	pre {
+	  		margin: 0;
+	  		padding: 4px 6px;
+	  	}
+	  }
+}
+
+#typography {
+
+	.specimen {
+
+		margin-bottom: 20px;
+
+		h6 {
+			font-weight: 400;
+			margin: 0;
+			padding: 0;
+		}
+
+		p {
+			margin: 0;
+			padding: 0;
+			font-size: 24px;
+
+			span {
+				display: block;
+				font-size: 14px;
+				color: #666;
+			}
+		}
+	}
+
+}
+
+.glyphicons {
+  font-size: 24px;
+  color: @icon-color;
+  padding-top: 0;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+
+  em {
+  	display: block;
+  	font-size: 14px;
+  	font-style: normal;
+  	font-weight: 600;
+  	padding-top: 10px;
+  	font-family: @standard-font;
+  	text-align: center;
+
+  	span {
+  		font-size: 12px;
+  		display: block;
+  		margin-top: 5px;
+  		font-weight: 400;
+  	}
+  }
+
+}
+
+.glyphicons:hover {
+	color: @hover-color;
+}
