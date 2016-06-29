@@ -2,7 +2,7 @@ body {
   background: #E0F4F1;
   color: #353635;
   font-family: 'Open Sans', sans-serif;
-  padding: 40px;
+  padding: 39px;
 }
 strong {
   font-weight: 600;
@@ -95,4 +95,7 @@ section div.usage pre {
   display: block;
   margin-top: 5px;
   font-weight: 400;
+}
+.glyphicons:hover {
+  color: #387DBF;
 }
